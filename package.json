@@ -1,0 +1,22 @@
+{
+  "name": "mean-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^2.0.2",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Vineet Yadav",
+  "license": "ISC"
+}
