@@ -4,11 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix angular-src"
   },
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
+    "concurrently": "^5.1.0",
     "cors": "*",
     "express": "*",
     "jsonwebtoken": "*",

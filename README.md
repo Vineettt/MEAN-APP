@@ -1,9 +1,5 @@
 # MEAN-APP
 
-cd MEAN-APP
-npm install
-npm start
+Install node modules using npm install in root folder and angular-src
 
-cd angular-src
-npm install
-ng serve
+run "npm run dev" to start MEAN stack
